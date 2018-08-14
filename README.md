@@ -23,7 +23,6 @@ Otherwise:
         * [Install Polymer CLI](#installcli).
   2.  [Clone, install and serve the `polyGallery` project locally](#clone).
   3.  (Optional) [Build the `polyGallery` project for production](#build).
-  4.  (Optional) [Deploy the `polyGallery` project](#deploy).
 
 <a name="setup"></a>
 
