@@ -1,0 +1,16 @@
+{
+  "name": "gallery",
+  "version": "0.0.1",
+  "main": "src/gallery.js",
+  "repository": "",
+  "author": "Mike G",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@polymer/polymer": "latest",
+    "@webcomponents/webcomponentsjs": "latest",
+    "@polymer/iron-ajax": "latest",
+    "@polymer/iron-image": "latest",
+    "plastic-image": "latest",
+    "intersection-observer": "latest"
+  }
+}

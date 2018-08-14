@@ -1,0 +1,25 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/gallery.js",
+  "sources": [
+   "src/gallery.js",
+   "manifest/**",
+   "package.json",
+   "shared-styles/**",
+   "images/**"
+  ],
+  "extraDependencies": [
+    "manifest.json",
+    "node_modules/@webcomponents/webcomponentsjs/**"
+  ],
+  "builds": [
+    { 
+      "preset": "es5",
+      "js": {"minify": true},
+      "css": {"minify": true},
+      "html": {"minify": true}
+    }
+  ],
+  "moduleResolution": "node",
+  "npm": true
+}

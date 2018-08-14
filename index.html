@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="theme-color" content="#fff">
+        <link rel="icon" href="manifest/favicon.ico">
+        <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js" async></script>
+        <script src="./src/gallery.js" type="module" async></script>
+        <title>Gallery</title>
+
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #gallery {
+                max-width: 1430px;
+                min-width: 360px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <link rel="import" href="shared-styles/shared-styles.html">
+        <image-gallery>
+            Loading...
+        </image-gallery>
+    </body>
+</html>
